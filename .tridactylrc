@@ -191,6 +191,7 @@ bind gxL tabclosealltoright
 bind gxH tabclosealltoleft
 unbind yv
 bind ' gobble 1 markjump
+bind gc composite js window.location.href | gitclone
 
 " Aliases
 alias ra reloadall
@@ -280,6 +281,7 @@ alias tcr tabclosealltoright
 alias tml tabmove -1
 alias tmr tabmove +1
 alias saveconfig mktridactylrc
+alias gitclone jsb -p tri.native.run("git clone --depth=1 '" + JS_ARG + "' /home/gordon/git/" + JS_ARG.split("/").slice(-1))
 
 " For syntax highlighting see https://github.com/tridactyl/vim-tridactyl
 " vim: set filetype=tridactyl

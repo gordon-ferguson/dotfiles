@@ -8,3 +8,15 @@ simply assume everything is generally built around vim keybindings or a very sim
 
 If you're looking for my neovim configuration, I have made that into
 it's own repository and is probably my most essential program. 
+
+
+Programs to install:
+neovim
+ripgrep
+ranger
+fzf
+zoxide
+tmux
+firefox
+btop
+zathura
